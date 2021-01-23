@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>DAY-2 ASSIGNMENT QUE 1</title>
+    </head>
+    <body>
+        <script>
+            console.log(1+ "2" + "2"); //output is 122 as the value in the quotes is considered as string and it will be concatenated.
+            
+            console.log(1 + +"2" + "2"); //output is 32 here the '+' sign before quotes makes the string into integer which adds 1 + 2 gives 3 and remaining will be concatenated.
+            
+            console.log(1 + -"1" + "2"); //output is 02 here '-'sign changes the string into integer then we will get 0 and 2 will be concatenated.
+            
+            console.log(+"1" + "1" + "2"); //output is 112 here concatenation occurs.
+            
+            console.log("A" - "B" + "2"); //output is NaN2 as the values of A,B are unknown it gives the result NaN and 2 will be concatenated.
+            
+            console.log("A" - "B" + 2); //output is NaN as the values of A,B are unknown it shows the result NaN and the value 2 can't be concatenated as it wasn't a string.
+        </script>
+    </body>
+</html>
